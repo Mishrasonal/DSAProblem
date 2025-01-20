@@ -41,9 +41,7 @@ public class Sorting {
             }
         }
     }
-    public static void mergeSort(int[] arr) {
-        
-    }
+
     public static void main(String[] args) {
         int[] arr = {7, 5, 9, 2, 8};
         insertionSort(arr);
