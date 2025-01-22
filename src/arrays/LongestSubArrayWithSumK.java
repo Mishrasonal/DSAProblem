@@ -24,7 +24,7 @@ public class LongestSubArrayWithSumK {
         return maxLength;
     }
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 1, 1, 1, 1};
-        System.out.println("Longest Subarray Length: "+longestSubArray(arr,3));
+        int[] arr = {10, 5, 2, 7, 1, -10};
+        System.out.println("Longest Subarray Length: "+longestSubArray(arr,15));
     }
 }
